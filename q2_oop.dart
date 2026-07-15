@@ -84,7 +84,7 @@ void showStatus(OrderStatus status) {
 
 void main() {
   List<MenuItem> order = [
-    Drink("บลูฮาวาย", 50, 2),
+    Drink("ชามะลิ", 50, 2),
     Food("มาม่าผัด", 60, "L"),
     Drink("นมฮอกไกโด", 55, 1),
   ];
