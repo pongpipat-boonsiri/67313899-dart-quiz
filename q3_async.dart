@@ -18,7 +18,7 @@ Stream<String> trackOrder() async* {
 Future<void> main() async {
   print("เริ่มโหลดข้อมูล...");
   try {
-    Map<String, dynamic> order = await fetchOrder(68);
+    Map<String, dynamic> order = await fetchOrder(67);
     print("ได้ข้อมูลออร์เดอร์: $order");
   } catch (e) {
     print("เกิดข้อผิดพลาด: $e");
