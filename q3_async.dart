@@ -3,7 +3,7 @@ Future<Map<String, dynamic>> fetchOrder(int orderId) async {
   if (orderId <= 0) {
     throw Exception("รหัสคำสั่งซื้อไม่ถูกต้อง");
   }
-  return {"id": orderId, "menu": "บานานาซ็อคโก้", "total": 80.0};
+  return {"id": orderId, "menu": "บานานาซ็อคโก้", "total": 70.0};
 }
 
 Stream<String> trackOrder() async* {
